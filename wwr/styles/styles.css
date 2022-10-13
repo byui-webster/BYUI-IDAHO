@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Roboto:ital,wght@0,900;1,100&display=swap');
+
+
+/* ----setting the max-width for the page ------ */
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+/* -----applying center alignment to the underlisted selectors */
+nav a, #hero-msg, .button-box, main {
+    text-align: center;
+}
+/* ------------------------------------------------------------ */
+#background {
+    height: 600px;
+    background-color: #d7dcf8;
+}
+
+#hero-img {
+    width: 100%;
+}
+/* ------------------I applied background colors to the underlisted selectors ----------------- */
+body {
+    background-color:#396E94;
+    color: #23de06;
+    font-family: "Noto+Serif", Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #def603;
+    
+}
+
+nav a {
+    padding: 35px;
+}
+
+a {
+    color: #938f9b;
+    text-decoration: none;
+}
+
+h2 {
+    margin: 0;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.copywright {
+    color: #03f7f7;
+}
+
+.home-title, h2 {
+    color: #f0f904;
+    font-family: "Roboto", Helvetica, Noto+Serif;
+}
+
+ h4 {
+    color: #fbf307;
+ }
+
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.msg{
+    padding: 35px;
+}
+
+.msg p {
+    font-size: 18px;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+}
+
+.logo, .icon {
+    width: 80px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+/* nav background hover color is added */
+nav a:hover, footer a:hover {
+    background-color: #04b5fa8f;
+    color: rgb(246, 5, 238);
+}
+
+.book, .join {
+    color: #f5faf6;
+    background-color: #fb0606;
+    border-radius: 45px;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+
+.book:hover, .join:hover {
+    background-color: #5406fd93;
+    color: black;
+}
+
+footer {
+    background-color: #4e4d9a;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer a:hover {
+    background-color: #a3f7058f;
+    color: rgb(217, 8, 8);
+    text-decoration: border-box;
+}
+
+footer .social img {
+    padding-top: 25px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 15px 0;
+}
+
+.card-img {
+    border: 10px solid #30b2f3;
+}
+
+.card-img {
+  border: 10px solid #30b2f3;
+}
+
+
+
+
