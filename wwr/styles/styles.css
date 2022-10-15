@@ -28,7 +28,7 @@ nav a, #hero-msg, .button-box, main {
 body {
     background-color:#396E94;
     color: #23de06;
-    font-family: "Noto+Serif", Roboto, Helvetica, sans-serif;
+    font-family: "Noto+Serif", "Helvetica", sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -53,17 +53,14 @@ h2 {
     margin: 0;
 }
 
-main section img {
-    box-sizing: border-box;
-}
-
 .copywright {
     color: #03f7f7;
 }
 
 .home-title, h2 {
     color: #f0f904;
-    font-family: "Roboto", Helvetica, Noto+Serif;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
 }
 
  h4 {
@@ -73,6 +70,8 @@ main section img {
 .home-title {
     font-size: 2em;
     margin-top: 10px;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
 }
 
 .msg{
@@ -90,6 +89,7 @@ main section img {
 }
 
 .icon {
+    text-decoration: none;
     padding-top: 10px;
 }
 /* nav background hover color is added */
@@ -101,10 +101,11 @@ nav a:hover, footer a:hover {
 .book, .join {
     color: #f0f6f1;
     background-color: #fb0606;
-    border-radius: 45px;
+    text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -137,13 +138,9 @@ footer .social img {
 }
 
 .card-img {
-    border: 10px solid #30b2f3;
+    border: 10px solid #d9c2a3;
 }
 
-.card-img {
-  border: 10px solid #30b2f3;
+main section img {
+    box-sizing: border-box;
 }
-
-
-
-
