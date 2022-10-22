@@ -24,11 +24,11 @@ nav a, #hero-msg, .button-box, main {
 #hero-img {
     width: 100%;
 }
-/* ------------------I applied background colors to the underlisted selectors ----------------- */
+/* ------------------I applied background colors to the underlisted selectors and also added the font family ----------------- */
 body {
     background-color:#396E94;
     color: #23de06;
-    font-family: "Noto+Serif", "Helvetica", sans-serif;
+    font-family: "Noto+Serif", "Roboto", Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -59,7 +59,7 @@ h2 {
 
 .home-title, h2 {
     color: #f0f904;
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-family: "Noto+Serif", "Roboto", Arial, sans-serif;
     font-size: 2em;
 }
 
@@ -67,7 +67,7 @@ h2 {
     color: #fbf307;
  }
 
-.home-title {
+ .home-title {
     font-size: 2em;
     margin-top: 10px;
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
