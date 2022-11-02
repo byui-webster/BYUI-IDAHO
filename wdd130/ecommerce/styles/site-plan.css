@@ -1,29 +1,29 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Roboto:ital,wght@0,900;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Kolker+Brush&family=Noto+Serif:ital,wght@1,700&family=Roboto:ital,wght@1,900&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #e41a96   ;
-  --secondary-color: #4016d8 ;
+  --primary-color: #396E94 ;
+  --secondary-color:  #e41a96   ;
   --accent1-color: #fb8b24;
-  --accent2-color: #e36414;
+  --accent2-color: #0C2903;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: noto-serif;
+  --paragraph-font: roboto, kolker+brush, dosis, noto-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #396E94;  /* headlines on a white background */ 
   --headline-color-on-color: #5f0f40; /* headlines on a colored background */ 
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #e36414; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #b2df0f  ;
+  --paragraph-color-on-color: #0C2903; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #396e94  ;
   --nav-link-color: #16f057;
   --nav-background-color: #e93096;
   --nav-hover-link-color: #e36414;
-  --nav-hover-background-color: #38f309;
+  --nav-hover-background-color: #396e94;
 }
 
 
