@@ -248,6 +248,17 @@ footer .social img {
 
 }
 
+.home-title-outlook {
+    font-size: 300%;
+    margin-top: 7.75em;
+    text-align: center;
+}
+
+.outlook-grid {
+    border: solid rgb(231, 30, 3);
+    background-color: #6f7364;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
