@@ -54,7 +54,7 @@ nav a, .button-box {
 }
 
 
-.home, .focus, .view {
+.home, .focus, .focus1, .view {
     color: white;
     background-color: #5125ad;
     text-decoration: none;
@@ -75,7 +75,7 @@ nav a, .button-box {
         margin-top: 1px;
 }
 
-#contentContainer {
+#contentContainer, #contentContainer1 {
     margin-top: 5px;
     margin-bottom: 10px;
     /*background-color: brown;*/
@@ -109,7 +109,7 @@ nav a:hover, footer a:hover {
 }
 
 
-#articleContainer {
+#articleContainer, #articleContainer1 {
     background-color: #04f3f3;
     width: 19%;
     height: 600px;
